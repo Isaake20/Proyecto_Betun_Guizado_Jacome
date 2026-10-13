@@ -1,5 +1,6 @@
 nombre_empresa = "Tecnologia Springfield"
 iva = 0.15
+separador = "================================"
 
 productos = [
 	{
@@ -22,11 +23,11 @@ productos = [
 	},
 ]
 
-print("================================")
+print(separador)
 print(nombre_empresa)
-print("Sistema de facturacion")
-print("================================")
-print(f"IVA configurado: {iva * 100}%")
+print("Sistema de facturación")
+print(separador)
+print(f"IVA configurado: {iva * 100:.1f}%")
 
 print("\n--- INVENTARIO ---")
 for producto in productos:
@@ -34,4 +35,4 @@ for producto in productos:
 	print(f"Nombre: {producto['nombre']}")
 	print(f"Precio: ${producto['precio']:.2f}")
 	print(f"Stock: {producto['stock']}")
-	print("-------------------")
+	print(separador)
