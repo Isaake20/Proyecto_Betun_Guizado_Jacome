@@ -1,6 +1,3 @@
-
-#Inventario
-
 nombre_empresa = "Tecnologia Springfield"
 iva = 0.15
 
